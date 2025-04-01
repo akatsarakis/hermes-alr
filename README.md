@@ -10,7 +10,7 @@ This repository contains Hermes—a membership-based replication protocol ensuri
 ## Key Features
 
 * **Crash-Tolerant, Linearizable**: Guarantees correctness despite replica failures.
-* **Almost-local Linearizable Reads**: Each replica can serve high throughput reads locally without incurring overhead to other replicas.
+* **Almost-local Reads**: Each replica can serve high throughput reads with zero (or minimal) overhead to other replicas (and network).
 * **Lease-Free**: Removes the risk of time-based lease violations under timing failures.
 
 ## Compilation
