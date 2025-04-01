@@ -58,7 +58,7 @@ Use **one** of the following methods:
 
 ## Lazy ALRs in Odyssey
 
-(Lazy) ALRs (referred to as _bqrs_ in Odyssey) are integrated directly into the original Odyssey repository. For protocols such as **ZAB** and **Raft**:
+(Lazy) ALRs (referred to as _bqrs_ in Odyssey) are integrated directly into the original [Odyssey repository](https://github.com/vasigavr1/Odyssey). For protocols such as **ZAB** and **Raft**:
 
 1. Use the **same CloudLab setup** as above.  
 2. To enable or disable ALRs, add the following definitions in the appropriate header files (i.e., `Zookeeper/include/zookeeper/zk_config.h`):
