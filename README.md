@@ -46,7 +46,8 @@ Once the cluster is ready:
    ```bash
    # From the top-level directory
    make clean && make
-   # Running Hermes(-ALR)
+
+# Running Hermes(-ALR)
 
 Use **one** of the following methods:
 
