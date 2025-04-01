@@ -1,6 +1,6 @@
 # Hermes-ALR
 
-This repository contains Hermes—a membership-based replication protocol ensuring linearizability under partial synchrony—enhanced with (Eager) Almost Local Reads (ALRs). This enhancement removes Hermes’ reliance on time-based leases, guaranteeing linearizable local reads at each replica, even in asynchronous environments.
+This repository contains Hermes—a membership-based replication protocol ensuring linearizability under partial synchrony—enhanced with (Eager) Almost Local Reads (ALRs). This enhancement removes Hermes’ reliance on time-based leases, guaranteeing linearizable local reads at each replica, even in asynchronous environments. The primary technique is detailed in the paper “The LAW theorem: Local Reads and Linearizable Asynchronous Replication”. 
 
 ## Overview
 
