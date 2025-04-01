@@ -42,17 +42,9 @@ Once the cluster is ready:
 ## Running Hermes(-ALR)
 
 1. **SSH** into the first node (e.g., `ssh node1`).
-2. **Compile Hermes(-ALR)**:
-   ```bash
-   # From the top-level directory
-   make clean && make
-
-# Running Hermes(-ALR)
-
-Use **one** of the following methods:
-
-1. Original [Hermes instructions](https://github.com/ease-lab/Hermes/blob/master/README.md#setup)  
-2. **Helper scripts** (e.g., `bin/copy-n-exec-hermesKV.sh`) after updating IPs in `exec/hosts.sh`.
+2. Use **one** of the following methods:
+- Original [Hermes instructions](https://github.com/ease-lab/Hermes/blob/master/README.md#setup)
+- **Helper scripts** (e.g., `bin/copy-n-exec-hermesKV.sh`) after updating IPs in `exec/hosts.sh`.
 
 ---
 
