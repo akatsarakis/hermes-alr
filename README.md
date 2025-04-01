@@ -51,7 +51,7 @@ Once the cluster is ready:
 
 Use **one** of the following methods:
 
-1. **Original Hermes instructions**  
+1. Original [Hermes instructions](https://github.com/ease-lab/Hermes/blob/master/README.md#setup)  
 2. **Helper scripts** (e.g., `bin/copy-n-exec-hermesKV.sh`) after updating IPs in `exec/hosts.sh`.
 
 ---
